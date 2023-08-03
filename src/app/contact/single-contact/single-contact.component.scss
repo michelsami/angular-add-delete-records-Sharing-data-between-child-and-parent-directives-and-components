@@ -1,0 +1,43 @@
+.card {
+	background-color: #f0f0f0;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 5px 4px rgba(0, 0, 0, 0.9);
+	text-align: center;
+	border: 1px solid black;
+}
+
+.card__name {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.card__number {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.card__button {
+	padding: 10px 20px;
+	background-color: red;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.card__button:hover {
+	background-color: #990099;
+}
+
+h2,
+p {
+	display: inline-block;
+}
+
+.space {
+	width: 50px;
+	display: inline-block;
+}

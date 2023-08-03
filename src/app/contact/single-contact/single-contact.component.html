@@ -1,0 +1,9 @@
+<div class="card" *ngFor="let OneContact of contact">
+  <h2 class="card__name">{{ OneContact.contactName }}</h2>
+  <div class="space"></div>
+  <p class="card__number">{{ OneContact.contactNumber }}</p>
+  <div class="space"></div>
+  <button class="card__button" (click)="deleteContact(OneContact)">
+    Delete
+  </button>
+</div>

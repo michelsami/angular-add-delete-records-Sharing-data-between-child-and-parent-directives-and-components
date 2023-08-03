@@ -1,0 +1,47 @@
+.cool-header {
+	background-color: #333;
+	padding: 20px;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+.cool-header__title {
+	font-size: 24px;
+	margin: 0;
+}
+
+.cool-header__nav {
+	display: flex;
+}
+
+.cool-header__menu {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.cool-header__menu-item {
+	margin-right: 10px;
+}
+
+
+
+
+
+
+
+.cool-header__menu-link {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px;
+	transition: color 0.3s;
+}
+
+.cool-header__menu-link:hover {
+	color: #ff00ff;
+}

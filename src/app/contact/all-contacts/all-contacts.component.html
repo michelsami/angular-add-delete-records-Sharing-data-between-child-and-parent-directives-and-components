@@ -1,0 +1,11 @@
+<div>
+  <input type="text" #searchInput /><i
+    (click)="findContact(searchInput)"
+    class="material-icons"
+    >search</i
+  >
+</div>
+<app-single-contact
+  [contact]="allContacts"
+  (deleteOneContact)="deleteContact($event)"
+></app-single-contact>
